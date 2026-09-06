@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0a0f1e;   /* fundo da página (azul bem escuro) */
-  --color-surface: #111827;      /* fundo dos cards */
-  --color-border: #1f2937;       /* bordas sutis */
-  --color-accent: #22d3ee;       /* cor de destaque (ciano) */
-  --color-terminal: #4ade80;     /* verde do terminal */
-  --color-text: #e5e7eb;         /* texto principal */
-  --color-muted: #9ca3af;        /* texto secundário */
+  --color-background: #0a0a0a;
+  --color-surface: #161616;
+  --color-border: #262626;
+  --color-text: #f5f5f6;
+  --color-muted: #9ca3af;
+  --color-accent: #ff2d78;
+  --color-terminal: #f5f5f6;
 }
 
 html {

@@ -41,21 +41,24 @@ export function About() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-border bg-surface p-6 font-mono text-sm">
-          <p className="text-muted">
-            <span className="text-accent">$</span> cat info.txt
-          </p>
-          <ul className="mt-4 space-y-3 text-text">
-            <li>
-              <span className="text-terminal">local:</span> {profile.location}
-            </li>
-            <li>
-              <span className="text-terminal">email:</span> {profile.email}
-            </li>
-            <li>
-              <span className="text-terminal">cargo:</span> {profile.role}
-            </li>
-          </ul>
+        <div className="space-y-6">
+
+          <div className="rounded-lg border border-border bg-surface p-6 font-mono text-sm">
+            <p className="text-muted">
+              <span className="text-accent">$</span> cat info.txt
+            </p>
+            <ul className="mt-4 space-y-3 text-text">
+              <li>
+                <span className="text-terminal">local:</span> {profile.location}
+              </li>
+              <li>
+                <span className="text-terminal">email:</span> {profile.email}
+              </li>
+              <li>
+                <span className="text-terminal">cargo:</span> {profile.role}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </Section>

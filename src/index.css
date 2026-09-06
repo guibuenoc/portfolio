@@ -9,3 +9,7 @@
   --color-text: #e5e7eb;         /* texto principal */
   --color-muted: #9ca3af;        /* texto secundário */
 }
+
+html {
+  scroll-behavior: smooth;
+}
